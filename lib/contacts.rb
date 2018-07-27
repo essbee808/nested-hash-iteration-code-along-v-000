@@ -16,5 +16,7 @@ require 'pry'
   
 def remove_strawberry(contacts)
   contacts.each do |name|
+    if name == "Jon Snow"
+      
 end
 end
