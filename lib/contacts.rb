@@ -20,7 +20,7 @@ def remove_strawberry(contacts)
       name.each do |key, value|
         new_array = []
         if key == favorite_ice_cream_flavors
-          new_array << ["strawberry", "cookie dough", "mint chip"].
+          new_array << ["strawberry", "cookie dough", "mint chip"].shift
       end 
       end
 end
