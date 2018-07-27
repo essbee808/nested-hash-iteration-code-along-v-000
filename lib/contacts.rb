@@ -18,8 +18,9 @@ def remove_strawberry(contacts)
   contacts.each do |name|
     if name == "Jon Snow"
       name.each do |key, value|
+        new_array
         if key == favorite_ice_cream_flavors
-          favorite_ice_cream_flavors
+          
       end 
       end
 end
