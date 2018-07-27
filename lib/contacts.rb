@@ -15,14 +15,4 @@ require 'pry'
   }
   
 def remove_strawberry(contacts)
-  contacts.each do |name|
-    if name == "Jon Snow"
-      name.each do |key, value|
-        new_array = []
-        if key == favorite_ice_cream_flavors
-          new_array << ["strawberry", "cookie dough", "mint chip"].shift
-      end 
-      end
-end
-end
-end
+  
