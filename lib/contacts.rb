@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
     if name == "Jon Snow"
       name.each do |key, value|
         if key == favorite_ice_cream_flavors
-          
+          puts key
       end 
       end
 end
